@@ -3,7 +3,7 @@ void main() {
     int age = Integer.parseInt(IO.readln());
     // IO.println("Your age : + age");
     if ((age < 59) || (age > 100)) {
-        IO.print("Error");
+        IO.print("Invalid");
     } else if (age <= 0) {
         IO.print("Your Error");
     } else if (age >= 9) {
